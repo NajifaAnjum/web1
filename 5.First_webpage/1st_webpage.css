@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+.banner img,.slider img{
+	width:100%;
+	height:400px;
+}
+.main_menu{
+	height:50px;
+	background:#C6D7E9;
+}
+.main_menu ul{
+	list-style:none;                          /*pasher bullet signgulake remove kora*/
+	padding:12px 0px 0px 4%;                  /*pura list er ekshathe top right bottom left padding*/
+}
+.main_menu ul li{
+	float:left;                               /*shbgulake pashapashi anar jonno*/   
+    margin-right:10px;                        /*pashapashi gap create korar jonno*/
+	border-right:1px solid black;             /*border mota hbe 1px er & color hbe black*/
+}
+.main_menu ul li a{
+	text-decoration:none;   /*nicher undrline remove korar jnno*/
+	color:black;           /*list item gular color*/
+	padding: 5px 20px;       /*5px top-bottom,20px left-right*/
+}
+.main_menu ul li a:hover{
+	/*background:#434504;          /*protita likhar upor cursor nile background colorta ashbe*/
+	/*color: #fff; */               /*& tokhn likhata white hbe*/
+	border-bottom:2px solid #7D893F;/*likhar upor cursor nile niche ekta green color er border ashbe*/
+	border-radius:5px;            /*likhar upor cursor nile nicher border ta ektu bakano*/
+	font-weight:bold;             /*likhar upor cursor nile likhata ektu bold hbe*/
+}
+.content{
+	width:55%;                        /*paragraph ta ek side e width*/
+	float:left;                       /*pashe sidebar k tene ansi*/
+	padding-top:20px;
+	
+}
+.content h2{
+	margin-bottom:20px;
+	color:black;
+}
+.content p{
+	color:black;
+}
+.sidebar{
+	width:40%;
+	overflow:hidden;
+	padding-top:20px;
+	
+}
+.sidebar ul{
+	list-style:none;
+}
+.sidebar ul li{
+	padding:3px;
+	border-bottom:2px solid grey;
+	
+}
+.sidebar ul li a{
+	text-decoration:none;
+}
+.sidebar ul li a:hover{
+	color:black;
+	font-weight:bold;
+}
+.footer{
+	height:30px;
+	background:#262626;
+	text-align:center;
+	padding-top:10px;
+	color:#fff;
+	margin-top:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
